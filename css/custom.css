@@ -1,0 +1,162 @@
+/* CSS Document */
+.btn.buttonMasuk{
+	background-color: black;
+	color: white;
+	width: 100px !important;
+}
+.btn.buttonMasuk:hover{
+	background-color: grey;
+	color: white;
+}
+
+#navbarSearch input[type=text]{
+	width: 400px !important;
+}
+#buttonCari{
+	background-color: white;
+	color: black;
+}
+#buttonCari:hover{
+	background-color: grey;
+	color: white;
+}
+
+#footer{
+	margin-top:10px;
+}
+img.details{
+	width: inherit;
+	margin: auto;
+}
+.img-thumb{
+	display:block;
+	object-fit: cover;
+	width: 207px;
+	height: 151px;
+	z-index: -1; 
+	position:relative;
+}
+#image-thumbnail{
+	display:inline-block;
+	margin-left: 0px;
+	opacity:1;
+	transition: opacity 0.3s ease-in-out;
+	padding-bottom: 3px;
+}
+#thumbnail-item{
+	border:1px solid #000000;
+	margin-bottom: 15px;
+}
+#text-thumbnail{
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 196px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: clip;
+}
+.price{
+	color:brown;
+}
+#big-thumbnail{
+	position: relative;
+}
+#big-thumbnail:hover #image-thumbnail{
+	opacity: 0.4;
+	transition: opacity 0.3s ease-in-out;
+}
+#button-rinci{
+	position: absolute;
+	top: 60px;
+	left: 80px;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+#big-thumbnail:hover #button-rinci{
+	opacity: 1;
+	transition: opacity 0.3s ease-in-out;
+}
+.column-1, .column-2, .column-3, .column-4, .column-5, .column-6, .column-7, .column-8, .column-9, .column-10{
+	position: relative;
+ 	min-height: 1px;
+  	padding-right: 15px;
+  	padding-left: 15px;
+}
+@media (min-width: 992px){
+	.column-1, .column-2, .column-3, .column-4, .column-5, .column-6, .column-7, .column-8, .column-9, .column-10{
+		float:left;
+	}
+	.column-1{
+		width:10%;
+	}
+	.column-2{
+		width:20%;
+	}
+	.column-3{
+		width:30%;
+	}
+	.column-4{
+		width:40%;
+	}
+	.column-5{
+		width:50%;
+	}
+	.column-6{
+		width:60%;
+	}
+	.column-7{
+		width:70%;
+	}
+	.column-8{
+		width:80%;
+	}
+	.column-9{
+		width:90%;
+	}
+	.column-10{
+		width:100%;
+	}
+	
+}
+
+.table-auto{
+	width:auto;
+	margin:0 auto;
+}
+#un{
+	margin-bottom: 5px;
+}
+#pw{
+	margin-bottom: 10px;
+}
+#bagi-form{
+	margin-bottom: 10px;
+}
+#gambar{
+	padding-bottom: 0px;
+}
+#reg{
+	width: 50%;
+	margin: auto;
+}
+.atur{
+  border:none;
+  outline:none;
+  background:none;
+  cursor:pointer;
+  color:#0000EE;
+  padding:0;
+  text-decoration:underline;
+  font-family:inherit;
+  font-size:inherit;
+}
+
+#icon-fasilitas i{
+	font-size: 25px;
+}
+
+#legenda{
+	list-style: none;
+	margin-left: -30px;
+	font-size: 15px;
+}
